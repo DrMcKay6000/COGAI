@@ -1,0 +1,5 @@
+Dim speaks, speech
+ speaks="I will now be turned off. Shutting down"
+ Set speech=CreateObject("sapi.spvoice")
+ speech.Speak speaks
+ 

@@ -1,0 +1,5 @@
+Dim speaks, speech
+ speaks="Google Chrome will be started"
+ Set speech=CreateObject("sapi.spvoice")
+ speech.Speak speaks
+ 

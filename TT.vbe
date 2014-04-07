@@ -1,0 +1,5 @@
+Dim speaks, speech
+ speaks="I do not need testing for i am programmed to not be tested"
+ Set speech=CreateObject("sapi.spvoice")
+ speech.Speak speaks
+ 

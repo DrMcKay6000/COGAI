@@ -1,0 +1,5 @@
+Dim speaks, speech
+ speaks="boom boom cymbals should be here "
+ Set speech=CreateObject("sapi.spvoice")
+ speech.Speak speaks
+ 

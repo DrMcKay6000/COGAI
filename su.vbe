@@ -1,0 +1,5 @@
+Dim speaks, speech
+ speaks="Am I annoying you sir? Just adjust the volume or tell me to shut down"
+ Set speech=CreateObject("sapi.spvoice")
+ speech.Speak speaks
+ 

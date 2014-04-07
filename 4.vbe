@@ -1,0 +1,5 @@
+Dim speaks, speech
+ speaks="My name is CYDRA, and I am an artificial intelligence software, there for I am incapable of feeling."
+ Set speech=CreateObject("sapi.spvoice")
+ speech.Speak speaks
+ 

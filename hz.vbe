@@ -1,0 +1,5 @@
+Dim speaks, speech
+ speaks="You got trolled"
+ Set speech=CreateObject("sapi.spvoice")
+ speech.Speak speaks
+ 

@@ -1,0 +1,5 @@
+Dim speaks, speech
+ speaks="The time will be displayed on the screen"
+ Set speech=CreateObject("sapi.spvoice")
+ speech.Speak speaks
+ 

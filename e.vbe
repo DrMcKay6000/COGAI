@@ -1,0 +1,5 @@
+Dim speaks, speech
+ speaks="You have made an error. please try again"
+ Set speech=CreateObject("sapi.spvoice")
+ speech.Speak speaks
+ 

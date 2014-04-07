@@ -1,0 +1,5 @@
+Dim speaks, speech
+ speaks="Yes sir?"
+ Set speech=CreateObject("sapi.spvoice")
+ speech.Speak speaks
+ 

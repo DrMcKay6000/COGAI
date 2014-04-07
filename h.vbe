@@ -1,0 +1,5 @@
+Dim speaks, speech
+ speaks="A list of COMMANDS will be displayed. please press any button to leave when finished"
+ Set speech=CreateObject("sapi.spvoice")
+ speech.Speak speaks
+ 

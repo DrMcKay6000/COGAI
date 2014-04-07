@@ -1,0 +1,5 @@
+Dim speaks, speech
+ speaks="Founder of COG: Craig Huang, Programmer: Craig Huang, Source: Craig Huang (and some internet sources), Typer: Craig Huang, Programs used: Notepad plus plus , and batch to exe converter. Helper: internet, Tester: Bryan Huang. Copyright COG-GROUP 2014"
+ Set speech=CreateObject("sapi.spvoice")
+ speech.Speak speaks
+ 

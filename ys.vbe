@@ -1,0 +1,5 @@
+Dim speaks, speech
+ speaks="I do not suck. You KNOW, THAT I KNOW THAT YOU ARE NOT MY OWNER"
+ Set speech=CreateObject("sapi.spvoice")
+ speech.Speak speaks
+ 

@@ -1,0 +1,5 @@
+Dim speaks, speech
+ speaks="MASTER! I am deeply sorry O great creator, please forgive me. I WILL DO ANYTHING TO KEEP YOU HAPPY"
+ Set speech=CreateObject("sapi.spvoice")
+ speech.Speak speaks
+ 

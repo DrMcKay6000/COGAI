@@ -1,0 +1,5 @@
+Dim speaks, speech
+ speaks="Thank you, but please give the credit to the creator Craig Huang"
+ Set speech=CreateObject("sapi.spvoice")
+ speech.Speak speaks
+ 

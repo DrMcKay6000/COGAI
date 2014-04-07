@@ -1,0 +1,5 @@
+Dim speaks, speech
+ speaks="Welcome to cog artificial intelligence RAGE (1.0). My name is CYDRA"
+ Set speech=CreateObject("sapi.spvoice")
+ speech.Speak speaks
+ 
